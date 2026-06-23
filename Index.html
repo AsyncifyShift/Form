@@ -1,153 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Login Portal</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-    * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+<! DOCTYPE html>
+<htm>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+        <title>Web</title>
+        <style type="text/css" media="all">
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: #ccccca;
+            }
+            
+            .box-1 {
+                background-color: #85847ba3;
+                padding: 5px;
+                 max-width: 576px;
+                width: 100%;
+                margin-left: -15px;
+            }
+            .section-box-1 {
+                background-color: white;
+                padding: 5px;
+                margin: 5px;
 
-body {
-    background-color: skyblue;
-    font-weight: 400;
-}
+            }
+            
+             .box-2 {
+                background-color: #85847ba3;
+                padding: 5px;
+                height: 100px;
+            }
+            
+             .box-3 {
+                background-color: #85847ba3;
+                padding: 5px;
+                max-width: 576px;
+                width: 100%;
+                margin-left: 15px;
+            }
+            .section-box-3 {
+                background-color: white;
+                padding: 5px;
+                margin: 5px;
 
-    main {
-        background-color: skyblue;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        min-height: 100vh;
-    }
-    
-    .form-container {
-        background-color: #0f172a;
-        color: white;
-        width: 90%;
-        padding: 20px;
-        text-align: center;
-        border-radius: 8px;
-    }
-    
-    form {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-    
-    .input-user-pass {
-        width: 100%;
-        height: 50px;
-        border-radius: 25px;
-        padding: 15px;
-        border: none;
-        outline: none;
-        font-size: 16px;
-        font-weight: 400;
-        cursor: pointer;
-    }
-    
-    .div-btn {
-        width: 100%;
-    }
-    
-    .login-btn {
-        background-color: #00f4ff;
-        width: 100%;
-        height: 50px;
-        border-radius:25px ;
-        border: none;
-        box-shadow:0 0 15px 6px #00f4ff ;
-        font-weight: bold;
-        cursor: pointer;
-        font-size: 18px;
-        transition:
-        background-color 0.3s ,
-        transform 0.3s,
-        box-shadow 0.3s ;
-    }
-    
-    .login-btn:hover {
-        background-color: #00f4ff;
-        transform: scale(1.05);
-        box-shadow: 0 0 25px 6px #00f4ff;
-    }
-    
-    .remember-forgot {
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: -10px;
-        margin-bottom: 15px;
-        font-size: 14px;
-    }
-    
-    label {
-        font-size: 14px;
-        margin-top: -3px;
-        display: flex;
-        align-items: center;
-    }
-    
-    a {
+            }
+            
+            .article{
+                margin-left: 25px;
+            }
+            
+            .Inquiry , h3 {
+                padding-left: 5px;
+            }
+            
+            .container {
+                margin: 10px;
+                margin-top: -10px;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                gap: 20px;
+                padding: 20px;
+            }
+            
+            .news-container {
+                padding: 5px;
+            }
+            
+            .nav {
+                background-color: #320285;
+                text-decoration: underline;
+                font-size: 18px;
+                padding: 6px;
+                margin-top: 5px;
+            }
+            
+            a {
+                color: white;
+                padding-left: 10px;
+            }
+            
+            footer {
+                background-color: #320285;
+                font-size: 18px;
+                padding: 6px;
+                color: white;
+                margin-top: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <article>
+        <h2 class="article">News</h2>
+        <p class="article">Local and National News</p>
+        </article>
+        </header>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Archives</a>
+            <a href="#">About</a>
+        </nav>
+        <main class="news-container">
+            <div class="container">
+            <section class="box-1">
+                <h3>Local News</h3>
+                <div class="section-box-1">
+                    <h4>Fire fighters rescue man from building this is local news1</h4>
+                    <p>(reporter name, date)</p>
+                    <p>This is the fighter details text. This is the story of fighter.
+                    </p>
 
-        color: white;
-        text-decoration: none;
-        cursor:pointer;
-    }
-    
-    a:hover {
-        text-decoration: underline;
-    }
-    
-    .Register {
-        width: 90%;
-        font-size: 12px;
-        margin-top: -5px;
-    }
-    
-    .image {
-        background-image: url('aliahmad.png');
-        background-size: cover;
-        width: 100px;
-        height: 100px;
-        border: 2px solid black;
-        border-radius: 50px;
-    }
-    </style>
-</head>
-<body>
-    <header>
-            <div class="image">
-        
-    </div>
-    </header>
-    <main>
-    <div class="form-container">
-        <form>
-            <h1>Login</h1>
-                <div class="div-btn">
-                    <input type="name" id="name" name="name" placeholder="Username" class="input-user-pass">
+                    <p>This is the detail of rescue man. This is the story of how is rescue</p>
                 </div>
-                <div class="div-btn">
-                    <input type="password" id="password" name="password" placeholder="Password" class="input-user-pass">
+                <div class="section-box-1">
+                    <h4>New Library to be built this is local news 2</h4>
+                    <p>(reporter name, date)</p>
+                    <p>This is the story text. This is the story text.</p>
+                    <p>This is the story text. This is the story text.</p>
                 </div>
-                <div class="remember-forgot">
-                   <label><input type="checkbox" class="remember">Remember me</label>
-                   <a href="#">Forgot Password?</a>
+            </section>
+                <aside class="box-2">
+                    <h3 class="Inquiry">Be a news Reporter</h3>
+                    <p class="Inquiry">If you see news hapenning.Send us a Text.</p>
+            </aside>
+            </div>
+                <section class="box-3">
+                <h3>Local News</h3>
+                <div class="section-box-3">
+                    <h4>Fire fighters rescue man from building this is local news1</h4>
+                    <p>(reporter name, date)</p>
+                    <p>This is the fighter details text. This is the story of fighter.
+                    </p>
+
+                    <p>This is the detail of rescue man. This is the story of how is rescue</p>
                 </div>
-                <button  class="login-btn">Login</button>
-                <p class="Register">Don't have an account?<a href="#" class="Register">Register</a></p>
-        </form>
-    </div>
-    </main>
-</body>
-</html>
+                <div class="section-box-3">
+                    <h4>New Library to be built this is local news 2</h4>
+                    <p>(reporter name, date)</p>
+                    <p>This is the story text. This is the story text.</p>
+                    <p>This is the story text. This is the story text.</p>
+                </div>
+            </section>
+        </main>
+        <footer>Footer information</footer>
+    </body>
+</htm>
